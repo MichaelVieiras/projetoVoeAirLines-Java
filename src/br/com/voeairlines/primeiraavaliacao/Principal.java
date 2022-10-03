@@ -6,8 +6,9 @@ public class Principal {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		Aeronave a = new Aeronave();
 		LabArrayList lab1 = new LabArrayList();
-		
+		System.out.println(a.cadastrar());
 		System.out.println("1 - ArrayList | 2 - List | 3 - Outros");
 		int opcao = scan.nextInt();
 		switch (opcao) {
